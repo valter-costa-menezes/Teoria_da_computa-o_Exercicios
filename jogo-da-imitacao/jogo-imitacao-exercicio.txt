@@ -1,0 +1,61 @@
+## Questionário: O Jogo da Imitação e a Teoria da Computação
+
+---
+
+1.  No filme "O Jogo da Imitação", a máquina Enigma é apresentada como um sistema de criptografia que transforma uma mensagem de texto simples em um texto cifrado. De uma perspectiva da teoria da computação, como a Enigma pode ser vista?
+     * b) Como um autômato finito (AF), pois ela tem um número limitado de estados internos e transições.
+   
+2.  Alan Turing e sua equipe construíram a "Bombe", uma máquina eletromecânica projetada para decifrar as mensagens da Enigma. De uma perspectiva computacional, qual era o objetivo principal da Bombe?
+     * c) Encontrar a configuração inicial da Enigma (a 'chave') testando combinações de forma eficiente.
+   
+
+3.  A máquina de Turing é um conceito teórico fundamental na ciência da computação. Qual das seguintes opções melhor descreve a principal diferença entre uma máquina de Turing e o autômato finito que representa a Enigma?
+    * a) A máquina de Turing tem uma fita de memória infinita, enquanto o AF tem memória finita.
+    
+4.  Se Alan Turing imaginou sua "Máquina de Turing" como um modelo para todo computador, o que o filme sugere sobre a Enigma em termos de computabilidade?
+    * c) A Enigma era, em sua essência, um autômato finito com um número vasto de estados possíveis.
+   
+
+5.  A criptografia da Enigma dependia de um "crib" (gíria para uma palavra ou frase conhecida na mensagem). Em termos de autômatos, o que o uso de um "crib" permitiu que a Bombe de Turing fizesse?
+    * b) Reduzir o número de estados do autômato de busca, tornando o problema mais simples.
+
+
+6.  No filme, Turing busca uma máquina para decifrar a Enigma que, para cada mensagem, tenha um número específico de passos. A busca pelo "computador universal" de Turing se baseia em qual princípio da teoria da computação?
+    * b) Na capacidade de um único algoritmo de simular qualquer outro algoritmo.
+
+
+7.  A máquina Enigma pode ser vista como um autômato finito que aceita uma linguagem. Qual é o **alfabeto de entrada** para este autômato?
+    * c) As letras do alfabeto latino (A-Z) para cada pressionamento de tecla.
+
+
+8.  A máquina de Turing universal de Alan Turing é um conceito teórico que se encaixa na categoria de qual tipo de máquina?
+    * c) Máquina de Turing.
+
+
+9.  Qual dos seguintes conceitos da teoria da computação é mais relevante para o problema de decifrar as mensagens da Enigma por força bruta, antes da invenção da Bombe?
+    * b) A complexidade de tempo exponencial.
+
+
+10. A máquina Bombe de Turing é um exemplo prático de um autômato que aceita uma linguagem, no sentido de que ele "aceita" a configuração correta da Enigma. Se a Bombe fosse um autômato, o que seria sua **cadeia de entrada**?
+
+    * b) As diferentes configurações de rotores e plugboard que a Bombe testava.
+
+
+11. Cada vez que uma letra é pressionada na máquina Enigma, as posições dos rotores e do plugboard mudam, alterando o resultado da criptografia. O que essa mudança representa em termos de autômatos finitos?
+    * b) Uma transição de estado.
+
+
+12. A "chave diária" da Enigma era uma configuração secreta que incluía a ordem dos rotores, suas posições iniciais e as conexões do plugboard. Em termos de autômatos, o que a chave diária estabelecia para a máquina Enigma?
+    * c) O estado inicial do autômato.
+
+
+13. A máquina Bombe de Turing foi construída para decifrar a Enigma, mas ela não era um computador de propósito geral. Por que a Bombe, apesar de sua complexidade, não é considerada uma máquina de Turing universal?
+    * b) Porque ela não podia simular qualquer algoritmo, apenas o processo reverso da Enigma.
+
+
+14. O esforço para decifrar a Enigma era, em grande parte, um problema de busca de um vasto espaço de soluções. A equipe de Turing sabia que, sem a ajuda da máquina, essa busca manual era:
+    * d) Computacionalmente inviável.
+
+
+15. O "teste da imitação", proposto por Alan Turing em 1950, é um conceito central para a Inteligência Artificial. No filme, o teste é mencionado de forma sutil, mas sua essência se relaciona à ideia de que:
+    * a) Um humano e uma máquina podem ser indistinguíveis em termos de comportamento.
