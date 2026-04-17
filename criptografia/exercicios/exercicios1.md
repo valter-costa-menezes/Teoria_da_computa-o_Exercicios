@@ -1,4 +1,4 @@
-﻿**Nome:** João Pedro Luz
+﻿
 **Curso:** Engenharia de Software
 
 
